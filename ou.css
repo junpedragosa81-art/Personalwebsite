@@ -1,0 +1,17 @@
+.avatar {
+   vertical-align: middle; /* Aligns the image with text if necessary */
+    width: 500px;           /* Sets the width of the image */
+    height: 500px;          /* Sets the height of the image */
+    border-radius: 100%;     /* Rounds the corners to create a circular shape */
+    object-fit: cover;      /* Ensures the image covers the area without distortion */
+    border: 15px solid red; /* Optional: adds a white border around the picture */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Optional: adds a subtle shadow */
+}
+.container{
+  text-align: center;
+  display: grid;
+  justify-items: center;
+}
+
+
+
